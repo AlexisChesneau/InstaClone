@@ -15,13 +15,21 @@ export default function Home() {
         </div>
         <div className="flex">
           <img src="images/icons/new-post.svg" alt="new-post" />
-          <img className="pl-5" src="images/icons/like.svg" alt="like.svg" />
+          <img
+            className="pl-5"
+            src="images/icons/white_heart.svg"
+            alt="like.svg"
+          />
         </div>
       </div>
       <div className="h-28 mt-12 bg-[#121212] flex items-center border-b border-[#363636]">
-        <div className="px-3 h-full flex flex-col justify-evenly">
-          <img className="h-14 rounded-full" src="images/profil.png" alt="" />
-          <p className="font-roboto-light text-[0.75rem]">Votre Story</p>
+        <div className="px-3 h-full flex flex-col items-center justify-center">
+          <img
+            className="h-14 w-14 rounded-full "
+            src="images/profil.png"
+            alt=""
+          />
+          <p className="font-roboto-regular text-[0.75rem] pt-2">Votre Story</p>
         </div>
       </div>
       <Card />

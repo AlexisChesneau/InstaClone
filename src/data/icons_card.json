@@ -1,0 +1,14 @@
+[
+  {
+    "src": "images/icons/chat.svg",
+    "alt": "chat"
+  },
+  {
+    "src": "images/icons/share.svg",
+    "alt": "share"
+  },
+  {
+    "src": "images/icons/signet.svg",
+    "alt": "signet"
+  }
+]
