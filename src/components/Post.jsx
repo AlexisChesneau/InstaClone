@@ -18,7 +18,7 @@ function Post({ user }) {
             src={user.picture}
             alt=""
           />
-          <h3 className="font-roboto-regular">{user.name}</h3>
+          <h3 className="font-roboto-regular text-[14px]">{user.name}</h3>
           <img className="pl-1" src={user.certified} alt="" />
           <span className="px-1 text-[#A8A8A8]">&bull;</span>
           <p className="text-[#0095F6] font-roboto-medium text-[0.875rem]">
@@ -53,9 +53,15 @@ function Post({ user }) {
             </button>
           ))}
         </div>
-        <span>{likeCount} J'aime</span>
-        <h3 className="font-roboto-regular">{user.name}</h3>
-        <p>{user.caption}</p>
+        <span className="text-[0.875rem]">{likeCount} J'aime</span>
+        <div className="flex">
+          <h3 className="font-roboto-regular text-[0.875rem]">{user.name}</h3>
+          <img className="p-1" src={user.certified} alt="" />
+          <p className="text-[0.875rem]">{user.caption}</p>
+        </div>
+        <button className="text-[#A8A8A8] text-[0.875rem]">
+          Afficher les 5 commentaires
+        </button>
       </div>
     </div>
   );
